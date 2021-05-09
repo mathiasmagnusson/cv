@@ -1,45 +1,35 @@
 <script lang="ts">
-	import Header from '$lib/Header/index.svelte';
-	import '../app.css';
+    import Header from '$lib/Header/index.svelte';
+    import '../app.css';
 </script>
 
 <Header />
 
 <main>
-	<slot />
+    <slot />
 </main>
-
-<footer>
-	<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
-</footer>
+<footer />
 
 <style>
-	main {
-		flex: 1;
-		display: flex;
-		flex-direction: column;
-		padding: 1rem;
-		width: 100%;
-		max-width: 1024px;
-		margin: 0 auto;
-		box-sizing: border-box;
+    main {
+        margin: 40px 15%;
+        border-radius: 5px;
+        width: 70%;
+        padding: 20px;
+        background-color: white;
+    }
+	main > :global(:not(:last-child)) {
+		margin-bottom: 30px;
 	}
-
 	footer {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		padding: 40px;
+		background-color: #26252e;
+		height: 100px;
+		box-shadow: 0 5px 20px black;
 	}
-
-	footer a {
-		font-weight: bold;
-	}
-
-	@media (min-width: 480px) {
-		footer {
-			padding: 40px 0;
+	@media only screen and (min-width: 1400px) {
+		main {
+			width: 980px;
+			margin: 40px calc(50vw - 490px);
 		}
 	}
 </style>
