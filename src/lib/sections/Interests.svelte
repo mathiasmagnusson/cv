@@ -31,10 +31,12 @@
             sysselsätter mig med.
         </p>
 
-        <h3>Träning</h3>
-        <p>
-            Jag tränar på gym. (T.ex. marklyft, bänkpress &amp; knäböj)
-        </p>
+        <!--
+            <h3>Träning</h3>
+            <p>
+                Jag tränar på gym. (T.ex. marklyft, bänkpress &amp; knäböj)
+            </p>
+        -->
 
         <h3>Friluftsliv</h3>
         <p>
@@ -46,7 +48,8 @@
         <p>
             Idag går jag inte kvar på scouterna, men har kvar intresset.
             Under sommarlovet 2019 cyklade jag och några vänner ner till Skåne
-            från Stockholm.
+            från Stockholm och under sommarlovet 2020 var vi på en tre dagars
+            paddlingsresa i Stockholms skärgård.
         </p>
     {/if}
 

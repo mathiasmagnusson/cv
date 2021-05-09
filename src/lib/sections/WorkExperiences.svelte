@@ -18,6 +18,10 @@
     <p>Björknäs och Saltängens förskola</p>
     <p>Sommarjobb 3 veckor 2019</p>
     <p>Byggde och målade bänkar, bilar o.dyl. till barnen på förskolornas gårdar.</p>
+
+    <h3>MicroAALabs &amp; Meitner</h3>
+    <p>Timanställd sedan början av 2020</p>
+    <p>Arbetar som utvecklare, främst backend. Använder mest PHP, Go &amp; NodeJS</p>
 </section>
 
 <style>

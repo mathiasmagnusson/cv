@@ -21,12 +21,17 @@
         <p>Nacka Gymnasium</p>
         <p>2017 till 2020</p>
         <p>
-            Går i trean på teknikprogrammet, inriktning info-media
-            (informations- och medieteknik). Jag har bland annat läst Matte 1c
-            till 4, Webbutveckling 1, tentat av Programmering 1 och läser för
-            tillfället Matte 5, Matte Specialisering, Programmering 2,
+            Jag gick teknikprogrammet med inriktning informations- och
+            medieteknik. Jag har bland annat läst Matematik 1c
+            till 5 samt Matematik - specialisering (linjär algebra),
+            Webbutveckling 1, Programmering 1 (som jag dock tentade av) och 2,
             Webbserverprogrammering 1 och Dator- och nätverksteknik 1.
         </p>
+
+        <!--
+            <h3>Millitär grundutbildning</h3>
+            <p>Dalregementsgruppen?</p>
+        -->
 
         <h3>Ledarutbildning Patrull</h3>
         <p>Scouternas folkhögskola</p>
