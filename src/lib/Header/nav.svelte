@@ -63,6 +63,14 @@
     i:hover {
         color: #7ab4ea;
     }
+    .address {
+        display: none;
+    }
+    @media only screen and (min-width: 700px) {
+        .address {
+            display: initial;
+        }
+    }
     @media only screen and (min-width: 1350px) {
         ul {
             display: flex;
@@ -80,8 +88,8 @@
         {/each}
     </ul>
     <address>
-        <span><i class="fas fa-phone"></i> +46793488021</span>
-        <span><i class="fas fa-map-marked-alt"></i> Lövdalsvägen 42, 132 41, Saltsjö-Boo</span>
+        <span class="phone"><i class="fas fa-phone"></i> +46793488021</span>
+        <span class="address"><i class="fas fa-map-marked-alt"></i> Lövdalsvägen 42, 132 41, Saltsjö-Boo</span>
         <span><a href="mailto:{email}" title={email}><i class="far fa-envelope"></i></a></span>
         <span><a href={page} title={page}><i class="fas fa-home"></i></a></span>
         <span><a href={gh} title={gh}><i class="fab fa-github"></i></a></span>

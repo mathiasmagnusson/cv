@@ -31,5 +31,6 @@
     }
     h1 {
         position: relative;
+        text-align: center;
     }
 </style>
