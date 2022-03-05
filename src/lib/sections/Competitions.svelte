@@ -1,6 +1,3 @@
-<script lang="ts">
-</script>
-
 <section>
     <h2>Tävlingar</h2>
 
@@ -49,16 +46,24 @@
         laget som kom på tredje plats i Säkerhetssm 2020.
     </p>
 
-    <h3>PicoCTF 2019</h3>
+    <h3>Midnight Sun CTF 2021</h3>
     <p>
-        <a href="https://picoctf.com/">PicoCTF</a> är en tävling som är
-        väldigt lik Säkerhetssm. Det är samma typ av uppgifter, man tävlar i
-        lag och den är främst gjord för gymnasieelever. Den här är dock
-        mycket större och främst gjord för tävlande från USA och Kanada.
-        Vårt lag, Bumbibjoernarna, som bestod av samma personer, kom på
-        plats 339 av ca 16 000.
+        Året efter kvalade vi i Bumbibjörnarna🐻 och tre av våra vänner från
+        gymnasiet in till finalen via den "vanliga" kvalificeringstävlingen.
+    </p>
+
+    <h3>Google Hash Code 2021</h3>
+    <p>
+        <a href="https://hashcode.withgoogle.com">Google Hash Code</a> är en
+        programmeringstävling som Google håller online varje år för deltagare i
+        hela världen. Jag tävlade med två vänner från KTH under namnet
+        DuckDuckRust🦆🦆🦀 och i kvalificeringsomgången kom vi på plats 1150 av
+        totalt ca 9000 deltagande lag.
     </p>
 </section>
 
 <style>
+    h3 {
+        margin-top: 10px;
+    }
 </style>

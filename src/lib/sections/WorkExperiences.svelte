@@ -1,6 +1,3 @@
-<script lang="ts">
-</script>
-
 <section>
     <h2>Arbetslivserfarenhet</h2>
 
@@ -25,4 +22,7 @@
 </section>
 
 <style>
+    h3 {
+        margin-top: 10px;
+    }
 </style>

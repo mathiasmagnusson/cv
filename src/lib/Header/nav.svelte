@@ -31,7 +31,6 @@
         align-items: center;
         flex-direction: row;
         height: 100%;
-        width: 50%;
         padding: 0;
     }
     li {
@@ -51,7 +50,6 @@
         display: flex;
         justify-content: center;
         padding: 20px;
-        width: 100%;
     }
     span {
         margin: 5px;
@@ -71,7 +69,7 @@
             display: initial;
         }
     }
-    @media only screen and (min-width: 1350px) {
+    @media only screen and (min-width: 1180px) {
         ul {
             display: flex;
         }
@@ -88,8 +86,9 @@
         {/each}
     </ul>
     <address>
-        <span class="phone"><i class="fas fa-phone"></i> +46793488021</span>
-        <span class="address"><i class="fas fa-map-marked-alt"></i> Lövdalsvägen 42, 132 41, Saltsjö-Boo</span>
+        <span class="phone"><i class="fas fa-phone"></i>&nbsp;+46793488021</span>
+        <span class="address"><i class="fas
+                fa-map-marked-alt"></i> Saltsjö-Boo,&nbsp;Nacka</span>
         <span><a href="mailto:{email}" title={email}><i class="far fa-envelope"></i></a></span>
         <span><a href={page} title={page}><i class="fas fa-home"></i></a></span>
         <span><a href={gh} title={gh}><i class="fab fa-github"></i></a></span>
