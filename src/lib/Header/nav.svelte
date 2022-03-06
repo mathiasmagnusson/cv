@@ -1,6 +1,11 @@
 <script>
     import { onMount } from "svelte";
     import scrollTo, { setup } from "$lib/scroll-to.ts";
+    import PhoneSvg from "../../../static/phone.svg";
+    import MailSvg from "../../../static/mail.svg";
+    import HomeSvg from "../../../static/home.svg";
+    import MapSvg from "../../../static/map.svg";
+    import GithubSvg from "../../../static/github.svg";
 
     let items = [];
 
@@ -55,11 +60,8 @@
         margin: 5px;
         color: white;
     }
-    i {
-        color: #1e70bf;
-    }
-    i:hover {
-        color: #7ab4ea;
+    span a :global(svg):hover {
+        filter: brightness(140%);
     }
     .address {
         display: none;
@@ -86,11 +88,10 @@
         {/each}
     </ul>
     <address>
-        <span class="phone"><i class="fas fa-phone"></i>&nbsp;+46793488021</span>
-        <span class="address"><i class="fas
-                fa-map-marked-alt"></i> Saltsjö-Boo,&nbsp;Nacka</span>
-        <span><a href="mailto:{email}" title={email}><i class="far fa-envelope"></i></a></span>
-        <span><a href={page} title={page}><i class="fas fa-home"></i></a></span>
-        <span><a href={gh} title={gh}><i class="fab fa-github"></i></a></span>
+        <span class="phone"><PhoneSvg />&nbsp;+46793488021</span>
+        <span class="address"><MapSvg /> Saltsjö-Boo,&nbsp;Nacka</span>
+        <span><a href="mailto:{email}" title={email}><MailSvg /></a></span>
+        <span><a href={page} title={page}><HomeSvg /></a></span>
+        <span><a href={gh} title={gh}><GithubSvg /></a></span>
     </address>
 </nav>
