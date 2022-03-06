@@ -4,20 +4,20 @@
     <h3>Programmering</h3>
 
     <p>
-        Ungefär så länge jag kan minnas har jag haft ett intresse för
-        datorer. I sjuan på högstadiet lärde vi oss på tekniken lite grunder
-        inom programmering i Javascript.
+        Ungefär så länge jag kan minnas har jag haft ett intresse för datorer. I
+        sjuan på högstadiet lärde vi oss på tekniken lite grunder inom
+        programmering i Javascript.
     </p>
 
     <p>
-        Efter det insåg jag att jag ville fortsätta med programmering.
-        Sedan dess har jag lärt mig fler programmeringsspråk. Dessutom har
-        jag nu på gymnasiet tentat av den första programmeringskursen.
+        Efter det insåg jag att jag ville fortsätta med programmering. Sedan
+        dess har jag lärt mig fler programmeringsspråk.
     </p>
 
     <p>
         Programmering är nu ett av mina fritidsintressen och något jag gärna
-        sysselsätter mig med.
+        sysselsätter mig med (när jag inte har fullt upp med programmeringen i
+        skolan).
     </p>
 
     <!--
@@ -35,10 +35,10 @@
     </p>
 
     <p>
-        Idag går jag inte kvar på scouterna, men har kvar intresset.
-        Under sommarlovet 2019 cyklade jag och några vänner ner till Skåne
-        från Stockholm och under sommarlovet 2020 var vi på en tre dagars
-        paddlingsresa i Stockholms skärgård.
+        Idag går jag inte kvar på scouterna, men har kvar intresset. Under
+        sommarlovet 2019 cyklade jag och några vänner ner till Skåne från
+        Stockholm, under sommarlovet 2020 var vi på en tre dagars paddlingsresa
+        i Stockholms skärgård och sommaren 2021 besteg vi Kebnekaise.
     </p>
 
 </section>

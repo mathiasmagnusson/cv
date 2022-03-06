@@ -14,8 +14,10 @@
     let scroll = 0;
 </script>
 
-<header id="site-header" style="background-color: rgb({sm*217}, {sm*250}, {sm*255});">
-    <h1 style="filter: opacity({sm}); transform: scale({(sm+1)/2}); top: {scroll/3}px">Mathias Magnusson</h1>
+<header id="site-header" style="background-color: rgb({sm*75}, {sm*100}, {sm*127});">
+    <h1 style="transform: scale({(sm+1)/2}); top: {scroll/3}px">
+        Mathias Magnusson
+    </h1>
 </header>
 <Nav />
 
@@ -26,7 +28,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        color: #302e46;
+        color: #eee;
         font-size: 30px;
     }
     h1 {

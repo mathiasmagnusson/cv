@@ -12,8 +12,8 @@
 
     <h4>Go</h4>
     <p>
-        Har lärt mig Go på egen hand och använt det på jobbet på Meitner för
-        webbserverutveckling.
+        Har lärt mig Go på egen hand och använt det när jag jobbat på Meitner
+        med webbserverutveckling.
     </p>
 
     <h4>Javascript</h4>
