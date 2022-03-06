@@ -6,6 +6,7 @@
     import HomeSvg from "../../../static/home.svg";
     import MapSvg from "../../../static/map.svg";
     import GithubSvg from "../../../static/github.svg";
+    import LinkedInSvg from "../../../static/linkedin.svg";
 
     let items = [];
 
@@ -17,6 +18,7 @@
     let email = "mathiasmagnussons@gmail.com";
     let page = "https://magnusson.space";
     let gh = "https://github.com/mathiasmagnusson";
+    let li = "https://www.linkedin.com/in/mathias-magnusson/";
 </script>
 
 <style>
@@ -66,7 +68,7 @@
     .address {
         display: none;
     }
-    @media only screen and (min-width: 700px) {
+    @media only screen and (min-width: 500px) {
         .address {
             display: initial;
         }
@@ -93,5 +95,6 @@
         <span><a href="mailto:{email}" title={email}><MailSvg /></a></span>
         <span><a href={page} title={page}><HomeSvg /></a></span>
         <span><a href={gh} title={gh}><GithubSvg /></a></span>
+        <span><a href={li} title={li}><LinkedInSvg /></a></span>
     </address>
 </nav>
